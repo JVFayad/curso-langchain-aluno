@@ -3,6 +3,7 @@ aiohttp==3.13.3
 aiosignal==1.4.0
 annotated-types==0.7.0
 anyio==4.12.1
+asyncpg==0.31.0
 attrs==25.4.0
 beautifulsoup4==4.14.3
 certifi==2026.2.25
@@ -30,6 +31,7 @@ langchain-community==0.4.1
 langchain-core==1.2.16
 langchain-google-genai==4.2.1
 langchain-openai==1.1.10
+langchain-postgres==0.0.17
 langchain-text-splitters==1.1.1
 langgraph==1.0.10
 langgraph-checkpoint==4.0.1
@@ -44,7 +46,11 @@ openai==2.24.0
 orjson==3.11.7
 ormsgpack==1.12.2
 packaging==26.0
+pgvector==0.3.6
 propcache==0.4.1
+psycopg==3.3.3
+psycopg-binary==3.3.3
+psycopg-pool==3.3.0
 pyasn1==0.6.2
 pyasn1_modules==0.4.2
 pycparser==3.0
